@@ -13,13 +13,15 @@ $break-large: 1200px;
 	-webkit-column-count: $value;
 	column-count: $value;
 }
+html {
+	&.menu-mobile-open {
+		width:100%;
+		overflow:hidden;
+	}
+}
 body {
 	font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
 	font-size: 14px;
-
-	&.menu-mobile-open {
-		overflow: hidden;
-	}
 }
 h1 {
 	font-size: 3em;

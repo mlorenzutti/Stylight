@@ -1,1 +1,1 @@
-$(".has-child > a").on("click",function(e){e.preventDefault(),$(this).parent().toggleClass("active")}),$(".mobile-icon").on("click",function(e){e.preventDefault(),$("body").toggleClass("menu-mobile-open")});
+$(".has-child > a").on("click",function(e){e.preventDefault(),$(this).parent().toggleClass("active")}),$(".mobile-icon").on("click",function(e){e.preventDefault(),$("html").toggleClass("menu-mobile-open")});

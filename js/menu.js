@@ -7,5 +7,5 @@ $('.has-child > a').on("click",function(e){
 
 $('.mobile-icon').on("click",function(e){
     e.preventDefault();
-    $('body').toggleClass("menu-mobile-open");
+    $('html').toggleClass("menu-mobile-open");
 });
