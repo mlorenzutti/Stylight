@@ -1,0 +1,15 @@
+header {
+	> ul {
+		> li {
+			position: relative;
+			display: inline-block;
+
+			@media screen and (max-width:(768px)) {
+				display: block;
+			}
+			> a, > a:hover, > a:active {
+				padding: 20px 15px;
+			}
+		}
+	}
+}

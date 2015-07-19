@@ -1,0 +1,109 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+.clearfix:after {
+  content: " ";
+  position: relative;
+  display: block;
+  clear: both; }
+.clearfix:before {
+  content: " ";
+  position: relative;
+  display: block;
+  clear: both; }
+
+.grid {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  height: 2000px; }
+  @media screen and (max-width: 960px) {
+    .grid {
+      width: 720px; } }
+  @media screen and (max-width: 768px) {
+    .grid {
+      width: 480px; } }
+  @media screen and (max-width: 480px) {
+    .grid {
+      width: 240px; } }
+  @media screen and (min-width: 1200px) {
+    .grid {
+      width: 1200px; } }
+
+.elem {
+  width: 226px;
+  position: absolute;
+  background-color: #CCC;
+  float: left;
+  margin: 7px; }
+  .elem .space {
+    position: relative;
+    width: 100%; }
+  .elem.elem1 .space {
+    padding-top: 120%; }
+  .elem.elem2 .space {
+    padding-top: 140%; }
+  .elem.elem3 .space {
+    padding-top: 100%; }
+  .elem.elem4 .space {
+    padding-top: 190%; }
+  .elem.elem5 .space {
+    padding-top: 220%; }
+  .elem.elem6 .space {
+    padding-top: 300%; }
+  .elem.elem7 .space {
+    padding-top: 110%; }
+  .elem.elem8 .space {
+    padding-top: 200%; }
+  .elem.elem9 .space {
+    padding-top: 180%; }
+  .elem.elem10 .space {
+    padding-top: 160%; }
+  .elem.elem11 .space {
+    padding-top: 120%; }
+  .elem.elem12 .space {
+    padding-top: 140%; }

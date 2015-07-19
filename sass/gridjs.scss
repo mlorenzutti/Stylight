@@ -1,0 +1,62 @@
+.grid {
+	width: 100%;
+	position: relative;
+
+	@media screen and (max-width:$break-small) {
+		height: auto !important;
+	}
+}
+.elem {
+	width: 240px;
+	position: absolute;
+	padding: 0.5em;
+	box-sizing: border-box;
+
+	@media screen and (max-width:$break-small) {
+		width: 100%;
+		position: relative;
+		top: auto !Important;
+		left: auto !Important;
+	}
+	.space {
+		position: relative;
+		width: 100%;
+		background-color: #CCC;
+	}
+	&.elem1 .space {
+		padding-top: 120%;
+	}
+	&.elem2 .space {
+		padding-top: 140%;
+	}
+	&.elem3 .space {
+		padding-top: 100%;
+	}
+	&.elem4 .space {
+		padding-top: 190%;
+	}
+	&.elem5 .space {
+		padding-top: 220%;
+	}
+	&.elem6 .space {
+		padding-top: 300%;
+	}
+	&.elem7 .space {
+		padding-top: 110%;
+	}
+	&.elem8 .space {
+		padding-top: 200%;
+	}
+	&.elem9 .space {
+		padding-top: 180%;
+	}
+	&.elem10 .space {
+		padding-top: 160%;
+	}
+	&.elem11 .space {
+		padding-top: 120%;
+	}
+	&.elem12 .space {
+		padding-top: 140%;
+	}
+}
